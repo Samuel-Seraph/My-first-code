@@ -13,7 +13,7 @@ Age:      ${age}
 Course:   ${courseName}
 Language: ${favouriteLanguage}
 Paid:     ${hasPaidFee}
-===================================`);
+);
 
 // Step 3: Change your mind[span_5](start_span)[span_5](end_span)
 // Update the 'let' variables with new values[span_6](start_span)[span_6](end_span)
