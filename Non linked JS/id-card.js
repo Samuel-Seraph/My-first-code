@@ -11,9 +11,9 @@ let hasPaidFee = true;
 console.log(
   Name:${fullName}
   Age:      ${age}
-Course:   ${courseName}
-Language: ${favouriteLanguage}
-Paid:     ${hasPaidFee}
+  Course:   ${courseName}
+  Language: ${favouriteLanguage}
+  Paid:     ${hasPaidFee}
   );
 
 // Step 3: Change your mind[span_5](start_span)[span_5](end_span)
