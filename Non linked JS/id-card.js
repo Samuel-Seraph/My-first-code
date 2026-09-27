@@ -1,6 +1,6 @@
 // Step 1: Store your details[span_1](start_span)[span_1](end_span)
 // Use 'const' for values that won't change, and 'let' for values that will change in Step 3[span_2](start_span)[span_2](end_span).
-const fullName = "Amaka Obi";
+const fullName = "Samuel Seraph";
 const age = 22;
 const courseName = "JavaScript Fundamentals";
 let favouriteLanguage = "JavaScript";
