@@ -8,13 +8,12 @@ let hasPaidFee = true;
 
 // Step 2: Print your card[span_3](start_span)[span_3](end_span)
 // Uses template literals (backticks) to print the card format[span_4](start_span)[span_4](end_span)
-console.log(
-  Name:${fullName}
-  Age:      ${age}
-  Course:   ${courseName}
-  Language: ${favouriteLanguage}
-  Paid:     ${hasPaidFee}
-  );
+console.log(Name:     ${fullName}
+Age:      ${age}
+Course:   ${courseName}
+Language: ${favouriteLanguage}
+Paid:     ${hasPaidFee}
+===================================`);
 
 // Step 3: Change your mind[span_5](start_span)[span_5](end_span)
 // Update the 'let' variables with new values[span_6](start_span)[span_6](end_span)
