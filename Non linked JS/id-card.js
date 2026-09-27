@@ -3,7 +3,7 @@
 const fullName = "Samuel Seraph";
 const age = 22;
 const courseName = "JavaScript Fundamentals";
-let favouriteLanguage = "JavaScript";
+let favouriteLanguage = "";
 let hasPaidFee = true;
 
 // Step 2: Print your card[span_3](start_span)[span_3](end_span)
