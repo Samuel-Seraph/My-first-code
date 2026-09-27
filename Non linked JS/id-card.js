@@ -8,7 +8,8 @@ let hasPaidFee = true;
 
 // Step 2: Print your card[span_3](start_span)[span_3](end_span)
 // Uses template literals (backticks) to print the card format[span_4](start_span)[span_4](end_span)
-console.log(
+console.log(`===================================
+M TECH HUB STUDENT C
 Name:     ${fullName}
 Age:      ${age}
 Course:   ${courseName}
