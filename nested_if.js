@@ -30,19 +30,23 @@ let hasCard = true;
 let pin = 1234;
 let balance = 5000;
 let amount = 2000;
+//let withdraw = 3000;
+let final_balance = balance - amount;
+
 
 if (hasCard === true) {
   console.log("Insert your pin!");
   if (pin === 1234) {
   console.log("Check Balance");
-    if (balance >= amount) {
-      console.log("transaction complete");
-    }else{
-      console.log("Insifficient funds");
+    if (balance === 5000) {
+      console.log("Input amount");
+    if (amount <= 0) {
+      console.log("Invalid amount");
+    } else if (amount > balance) {
+      console.log("Insufficient funds");
+    } else {
+      console.log("Withdrawal successful");
+    }console.log(final_balance);
     }
-  }else{
-    console.log("Incorrect Pin");
   }
-}else{
-  console.log("Insert a card");
 }
